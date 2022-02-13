@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:400|Roboto:400,700,900");
+
+@font-face {
+  font-family: "SF Pro Text-Semibold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/SFProText-Semibold") format("opentype");
+}
+
+.referred-hospital-page {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 812px;
+  width: 375px;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.overlap-group2 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 812px;
+  width: 375px;
+}
+
+.flex-row {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 97px;
+  justify-content: flex-end;
+  margin-left: 5px;
+  margin-top: 14px;
+  min-width: 348px;
+  padding: 6px 5px;
+}
+
+.overlap-group-container {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3px;
+  margin-left: 29px;
+  min-height: 74px;
+  width: 136px;
+}
+
+.admit-container {
+  background-color: var(--salem);
+  height: 26px;
+  margin-left: 10px;
+  margin-top: 20px;
+  position: relative;
+  width: 106px;
+}
+
+.admit {
+  height: 15px;
+  left: 8px;
+  letter-spacing: 0;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  width: 91px;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.overlap-group {
+  height: 28px;
+  position: relative;
+  width: 136px;
+}
+
+.more-details {
+  height: 20px;
+  left: 26px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 4px;
+  width: 110px;
+}
+
+.rectangle-3 {
+  background-color: var(--black);
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 133px;
+}
+
+.flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 78px;
+  width: 171px;
+}
+
+.referred-hospital-pmch-container {
+  height: 26px;
+  margin-left: 2px;
+  margin-top: 9px;
+  position: relative;
+  width: 169px;
+}
+
+.referred-hospital-pmch {
+  height: 26px;
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  width: 169px;
+}
+
+.x-age-sex-add {
+  height: 43px;
+  letter-spacing: 0;
+  width: 171px;
+}
+
+.overlap-group5 {
+  height: 88px;
+  position: relative;
+  width: 375px;
+}
+
+.rectangle-33 {
+  background-color: var(--black);
+  height: 53px;
+  left: 0;
+  position: absolute;
+  top: 35px;
+  width: 375px;
+}
+
+.status-bar {
+  align-items: center;
+  display: flex;
+  height: 44px;
+  left: 0;
+  min-width: 375px;
+  padding: 3.3px 8.6px;
+  position: absolute;
+  top: 0;
+}
+
+.overlap-group1 {
+  align-self: flex-end;
+  height: 27px;
+  position: relative;
+  width: 67px;
+}
+
+.time {
+  color: var(--black);
+  font-family: var(--font-family-sf_pro_text-semibold);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  left: 13px;
+  letter-spacing: -0.33px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 54px;
+}
+
+.union {
+  cursor: pointer;
+  height: 12px;
+  left: 0;
+  position: absolute;
+  top: 15px;
+  width: 13px;
+}
+
+.connections {
+  align-items: center;
+  display: flex;
+  height: 16px;
+  justify-content: flex-end;
+  margin-left: 218px;
+  margin-top: 2px;
+  min-width: 68px;
+  padding: 1.8px 0;
+}
+
+.battery {
+  align-items: flex-start;
+  display: flex;
+  height: 12px;
+  margin-left: 5px;
+  min-width: 25px;
+  padding: 0.3px 0px;
+}
+
+.overlap-group-1 {
+  align-items: flex-start;
+  border: 1px solid 
+#00000059;
+  border-radius: 2.67px;
+  display: flex;
+  height: 11px;
+  min-width: 22px;
+  padding: 1px 1px;
+}
+
+.capacity {
+  background-color: var(--black);
+  border-radius: 1.33px;
+  height: 7px;
+  width: 18px;
+}
+
+.cap {
+  align-self: center;
+  height: 4px;
+  margin-left: 1px;
+  width: 2px;
+}
+
+.wifi {
+  align-self: flex-start;
+  height: 12px;
+  margin-left: 4px;
+  width: 16px;
+}
+
+.cellular-connection {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6208b7d1b6a0a668838cf31b/releases/6208b88be742a36d07b10733/img/cellular-connection@2x.svg);
+  background-size: 100% 100%;
+  height: 12px;
+  margin-top: 0;
+  width: 18px;
+}
+
+.sadar-hospital-bhopal {
+  color: var(--white);
+  font-family: var(--font-family-comfortaa);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  height: 37px;
+  left: 16px;
+  letter-spacing: -0.27px;
+  position: absolute;
+  top: 44px;
+  width: 165px;
+}
+
+.flex-row-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 97px;
+  justify-content: flex-end;
+  margin-left: 5px;
+  margin-top: 33px;
+  min-width: 348px;
+  padding: 6px 5px;
+}
+
+.overlap-group-container-1 {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6px;
+  margin-left: 28px;
+  min-height: 71px;
+  width: 136px;
+}
+
+.overlap-group9 {
+  align-items: flex-start;
+  background-color: var(--salem);
+  display: flex;
+  height: 26px;
+  justify-content: flex-end;
+  margin-left: 10px;
+  margin-top: 17px;
+  min-width: 106px;
+  padding: 5px 7px;
+}
+
+.admit-1 {
+  height: 15px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 91px;
+}
+
+.referred-hospital-pmch-1 {
+  height: 26px;
+  letter-spacing: 0;
+  margin-left: 1px;
+  margin-top: 9px;
+  width: 169px;
+}
+
+.register {
+  align-items: flex-start;
+  display: flex;
+  height: 40px;
+  margin-right: 43px;
+  margin-top: 14px;
+  min-width: 148px;
+}
+
+.search {
+  color: var(--black);
+  font-family: var(--font-family-comfortaa);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 400;
+  height: 25px;
+  letter-spacing: -0.36px;
+  width: 250px;
+}

@@ -1,0 +1,262 @@
+.starting-page-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 812px;
+  overflow: hidden;
+  width: 375px;
+}
+
+.overlap-group1 {
+  height: 320px;
+  margin-left: -205px;
+  position: relative;
+  width: 650px;
+}
+
+.x21_09_2020-sadar_hos {
+  height: 320px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 650px;
+}
+
+.sadar-hospital-bhopal {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-weight: 900;
+  height: 78px;
+  left: 382px;
+  letter-spacing: -0.51px;
+  position: absolute;
+  text-align: center;
+  top: 229px;
+  width: 250px;
+}
+
+.database-of-hospital {
+  align-self: center;
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxxl);
+  font-weight: 900;
+  height: 31px;
+  letter-spacing: -0.33px;
+  margin-right: 1px;
+  margin-top: 13px;
+  text-align: center;
+  width: 248px;
+}
+
+.overlap-group3 {
+  align-items: flex-start;
+  background-image: url(rectangle-29.svg);
+  background-size: 100% 100%;
+  display: flex;
+  margin-left: -7px;
+  margin-top: 63px;
+  min-width: 188px;
+  padding: 0 13px;
+}
+
+.new-patient {
+  height: 58px;
+  letter-spacing: -0.33px;
+  text-align: center;
+  width: 162px;
+}
+
+.overlap-group5 {
+  height: 58px;
+  margin-left: -11px;
+  margin-top: 26px;
+  position: relative;
+  width: 313px;
+}
+
+.rectangle-32 {
+  background-color: var(--black);
+  height: 58px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 304px;
+}
+
+.referred-patient-from-another-hospital {
+  height: 48px;
+  left: 20px;
+  letter-spacing: -0.33px;
+  position: absolute;
+  top: 9px;
+  transform: rotate(-0.32deg);
+  width: 293px;
+}
+
+.overlap-group2 {
+  align-items: center;
+  background-color: var(--black);
+  display: flex;
+  height: 94px;
+  justify-content: flex-end;
+  margin-left: 1px;
+  margin-top: 15px;
+  min-width: 177px;
+  padding: 0 36px;
+}
+
+.doctors-profile {
+  height: 60px;
+  letter-spacing: -0.33px;
+  text-align: center;
+  width: 104px;
+}
+
+.overlap-group4 {
+  height: 76px;
+  margin-left: -7px;
+  margin-top: 23px;
+  position: relative;
+  width: 190px;
+}
+
+.rectangle-31 {
+  background-color: var(--black);
+  height: 76px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 188px;
+}
+
+.facilities-available {
+  height: 68px;
+  left: 8px;
+  letter-spacing: -0.33px;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  width: 182px;
+}
+
+.shape {
+  align-self: center;
+  background-color: var(--black);
+  border-radius: 10px;
+  height: 5px;
+  margin-top: 22px;
+  width: 135px;
+}
+
+.status-bar {
+  align-items: flex-end;
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  left: 205px;
+  min-width: 375px;
+  padding: 12px 14px;
+  position: absolute;
+  top: 0;
+}
+
+.time {
+  letter-spacing: -0.33px;
+  min-height: 18px;
+  text-align: center;
+  width: 54px;
+}
+
+.connections {
+  align-items: center;
+  display: flex;
+  height: 16px;
+  justify-content: flex-end;
+  margin-bottom: 1px;
+  margin-left: 218px;
+  min-width: 68px;
+  padding: 1.8px 0;
+}
+
+.cellular-connection {
+  background-image: url(cellular-connection-2.svg);
+  background-size: 100% 100%;
+  height: 12px;
+  margin-top: 0;
+  width: 18px;
+}
+
+.wifi {
+  align-self: flex-start;
+  height: 12px;
+  margin-left: 4px;
+  width: 16px;
+}
+
+.battery {
+  align-items: flex-start;
+  display: flex;
+  height: 12px;
+  margin-left: 5px;
+  min-width: 25px;
+  padding: 0.3px 0px;
+}
+
+.overlap-group {
+  align-items: flex-start;
+  border-radius: 2.67px;
+  display: flex;
+  height: 11px;
+  min-width: 22px;
+  padding: 1px 1px;
+}
+
+.capacity {
+  background-color: var(--black);
+  border-radius: 1.33px;
+  height: 7px;
+  width: 18px;
+}
+
+.cap {
+  align-self: center;
+  height: 4px;
+  margin-left: 1px;
+  width: 2px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:400|Roboto:400,700,900");
+@font-face {
+  font-family: "SF Pro Text-Semibold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/SFProText-Semibold") format("opentype");
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
