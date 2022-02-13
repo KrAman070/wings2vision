@@ -1,0 +1,219 @@
+@font-face {
+    font-family: "SF Pro Text-Semibold";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.animaapp.com/SFProText-Semibold") format("opentype");
+  }
+  
+  @import url("https://fonts.googleapis.com/css?family=Comfortaa:400|Roboto:400,700,900");
+  
+  @font-face {
+    font-family: "SF Pro Text-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("https://fonts.animaapp.com/SFProText-Bold") format("opentype");
+  }
+  
+  .starting-page-2 {
+    align-items: center;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    height: 812px;
+    overflow: hidden;
+    width: 375px;
+  }
+  
+  .hidden,
+  .hidden * {
+    pointer-events: none;
+    visibility: hidden;
+  }
+  
+  .overlap-group2 {
+    height: 707px;
+    margin-left: 0;
+    position: relative;
+    width: 375px;
+  }
+  
+  .rectangle {
+    height: 707px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 375px;
+  }
+  
+  .status-bar {
+    align-items: flex-end;
+    display: flex;
+    height: 44px;
+    justify-content: flex-end;
+    left: 0;
+    min-width: 375px;
+    padding: 12px 14px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .time {
+    color: var(--black);
+    font-family: var(--font-family-sf_pro_text-semibold);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    letter-spacing: -0.33px;
+    min-height: 18px;
+    text-align: center;
+    width: 54px;
+  }
+  
+  .connections {
+    align-items: center;
+    display: flex;
+    height: 16px;
+    justify-content: flex-end;
+    margin-bottom: 1px;
+    margin-left: 218px;
+    min-width: 68px;
+    padding: 1.8px 0;
+  }
+  
+  .cellular-connection {
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6208b7d1b6a0a668838cf31b/releases/6208b88be742a36d07b10733/img/cellular-connection-7@2x.svg);
+    background-size: 100% 100%;
+    height: 12px;
+    margin-top: 0;
+    width: 18px;
+  }
+  
+  .wifi {
+    align-self: flex-start;
+    height: 12px;
+    margin-left: 4px;
+    width: 16px;
+  }
+  
+  .battery {
+    align-items: flex-start;
+    display: flex;
+    height: 12px;
+    margin-left: 5px;
+    min-width: 25px;
+    padding: 0.3px 0px;
+  }
+  
+  .overlap-group {
+    align-items: flex-start;
+    border: 1px solid 
+  #00000059;
+    border-radius: 2.67px;
+    display: flex;
+    height: 11px;
+    min-width: 22px;
+    padding: 1px 1px;
+  }
+  
+  .capacity {
+    background-color: var(--black);
+    border-radius: 1.33px;
+    height: 7px;
+    width: 18px;
+  }
+  
+  .cap {
+    align-self: center;
+    height: 4px;
+    margin-left: 1px;
+    width: 2px;
+  }
+  
+  .shape {
+    background-color: var(--black);
+    border-radius: 10px;
+    height: 5px;
+    margin-top: 20px;
+    width: 135px;
+  }
+  
+  .flex-row {
+    align-items: flex-start;
+    display: flex;
+    margin-top: 20px;
+    min-width: 343px;
+  }
+  
+  .button {
+    align-items: flex-start;
+    background-color: var(--white);
+    border: 2px solid var(--black);
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    height: 52px;
+    min-width: 167px;
+    padding: 17px 59px;
+  }
+  
+  .log-in {
+    color: var(--black);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m);
+    font-weight: 900;
+    height: 15px;
+    letter-spacing: 0.52px;
+    min-width: 44px;
+    text-align: center;
+  }
+  
+  .valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .overlap-group1 {
+    border-radius: 6px;
+    height: 52px;
+    margin-left: 9px;
+    position: relative;
+    width: 167px;
+  }
+  
+  .button-1 {
+    align-items: flex-end;
+    background-color: var(--black);
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    height: 52px;
+    left: 0;
+    min-width: 167px;
+    padding: 18px 34px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .register {
+    color: var(--white);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m);
+    font-weight: 900;
+    height: 15px;
+    letter-spacing: 0.52px;
+    min-width: 98px;
+    text-align: center;
+  }
+  
+  .place {
+    color: var(--black);
+    font-family: var(--font-family-sf_pro_text-bold);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    height: 16px;
+    left: 51px;
+    letter-spacing: -0.2px;
+    position: absolute;
+    text-align: center;
+    top: 2px;
+  }
